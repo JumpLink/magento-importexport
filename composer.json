@@ -1,0 +1,21 @@
+{
+    "name": "jumplink/magento-importexport",
+    "type": "magento-module",
+    "description": "Import Magentp Products into MongoDB",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        }
+    ],
+    "require": {
+	    "magento-hackathon/magento-composer-installer":"*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JumpLink",
+            "email": "jumplink@gmail.com"
+        }
+    ]
+}
