@@ -19,9 +19,9 @@ if (file_exists($autoload = __DIR__.'/../../../../../../../vendor/autoload.php')
 
 class MongoDBImport extends Mage_Shell_Abstract {
 
-  public $product_export;
-  public $mongodb_writer;
-  public $collection;
+  protected $product_export;
+  protected $mongodb_writer;
+  protected $collection;
 
   public function __construct () {
     parent::__construct();
